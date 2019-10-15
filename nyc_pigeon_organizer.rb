@@ -1,10 +1,7 @@
 def nyc_pigeon_organizer(data)
   
   org_hash = {}
-  
-  
-  
-  data.each do |k, v|
+    data.each do |k, v|
     attribute = k
     v.each do |key, value|
       specific = key
